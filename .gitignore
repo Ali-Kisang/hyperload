@@ -1,0 +1,10 @@
+/target
+/dist
+node_modules
+.env
+*.part
+.hyperload/
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

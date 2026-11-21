@@ -1,0 +1,17 @@
+[package]
+name = "hyperload"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "HyperLoad command-line downloader"
+
+[[bin]]
+name = "hyperload"
+path = "src/main.rs"
+
+[dependencies]
+anyhow.workspace = true
+clap.workspace = true
+hyperload-core = { path = "../hyperload-core" }
+tokio.workspace = true
+tracing-subscriber.workspace = true
